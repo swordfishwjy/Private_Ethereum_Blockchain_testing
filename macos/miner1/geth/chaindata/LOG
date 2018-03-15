@@ -1,0 +1,43 @@
+=============== Mar 14, 2018 (CDT) ===============
+23:21:14.508945 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:21:14.509555 db@open opening
+23:21:14.510070 version@stat F·[] S·0B[] Sc·[]
+23:21:14.510559 db@janitor F·2 G·0
+23:21:14.510598 db@open done T·1.018465ms
+=============== Mar 14, 2018 (CDT) ===============
+23:21:54.645029 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:21:54.645852 version@stat F·[] S·0B[] Sc·[]
+23:21:54.645897 db@open opening
+23:21:54.645993 journal@recovery F·1
+23:21:54.650694 journal@recovery recovering @1
+23:21:54.651676 memdb@flush created L0@2 N·9 S·552B "HJ\x05..2Vy,v3":"r\x00\x00..2Vy,v5"
+23:21:54.656340 version@stat F·[1] S·552B[552B] Sc·[0.25]
+23:21:54.658082 db@janitor F·3 G·0
+23:21:54.658138 db@open done T·12.20561ms
+23:21:54.818496 db@close closing
+23:21:54.818790 db@close done T·282.392µs
+=============== Mar 14, 2018 (CDT) ===============
+23:22:17.263181 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:22:17.263693 version@stat F·[1] S·552B[552B] Sc·[0.25]
+23:22:17.263740 db@open opening
+23:22:17.263809 journal@recovery F·1
+23:22:17.267446 journal@recovery recovering @3
+23:22:17.269114 memdb@flush created L0@5 N·3 S·290B "Blo..ion,v12":"dbU..ata,v11"
+23:22:17.272460 version@stat F·[2] S·842B[842B] Sc·[0.50]
+23:22:17.273653 db@janitor F·4 G·0
+23:22:17.273688 db@open done T·9.930095ms
+23:22:17.421634 db@close closing
+23:22:17.421911 db@close done T·273.839µs
+=============== Mar 14, 2018 (CDT) ===============
+23:23:58.642674 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:23:58.643410 version@stat F·[2] S·842B[842B] Sc·[0.50]
+23:23:58.643450 db@open opening
+23:23:58.643546 journal@recovery F·1
+23:23:58.649494 journal@recovery recovering @6
+23:23:58.650701 memdb@flush created L0@8 N·2 S·243B "Blo..ion,v15":"Las..der,v16"
+23:23:58.655389 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+23:23:58.657334 db@janitor F·5 G·0
+23:23:58.657395 db@open done T·13.917152ms
+=============== Mar 15, 2018 (CDT) ===============
+01:26:42.397798 db@close closing
+01:26:42.399726 db@close done T·2.773847ms

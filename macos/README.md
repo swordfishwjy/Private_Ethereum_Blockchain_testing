@@ -13,7 +13,7 @@ Contains scripts and whatnot for running a private ethereum blockchain
 	
 ### Installation
 
-* go.1.10:
+go.1.10:
 
 	Install on Ubuntu:
 
@@ -31,8 +31,8 @@ Contains scripts and whatnot for running a private ethereum blockchain
 	> export PATH=/usr/local/go/bin:$PATH:$GOPATH/bin
 	> EOF
 	> source ~/.bashrc
-
-*  go-ethereum:  
+ 
+go-ethereum:  
 Follow instructions at https://github.com/ethereum/go-ethereum   
 
 

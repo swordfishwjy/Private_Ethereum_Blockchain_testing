@@ -9,7 +9,9 @@ geth --identity "bootstrap" --networkid 9111 \
      --port "39909" --rpc --rpcport "42024" \
      --rpcapi "db,eth,web3,net,personal,miner" \
      --unlock 0 \
+     --preload "checkBalance.js" \
 	 --password $CURR/bootstrap/passwd.sec \
+   console
 else
 	echo "Initialize first"
 fi

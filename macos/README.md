@@ -1,30 +1,39 @@
 # geth-private  
-#### Austin Hester  
+#### Modified by Jianyu Wang, source from Austin Hester  
 
 Contains scripts and whatnot for running a private ethereum blockchain
 
 ### Prerequisites
-
-	> go-ethereum-1.7.3-stable (geth)
-	> go-1.8+
+	（already tested）
+	> go-ethereum-1.8.2-stable (geth)
+	> go-1.10
 	> nodejs-1.8+
-	> truffle
+	> truffle 4.0.6
 	> [optional] Mist browser
 	
 ### Installation
 
-go-ethereum:  
+* go.1.10:
 
-Follow instructions at https://github.com/ethereum/go-ethereum   
-The latest release [1.8.0-unstable], is, well, unstable.  
-Get [1.7.3-stable].
-
-go.1.8+:
-
+	Install on Ubuntu:
 	> sudo add-apt-repository ppa:gophers/archive
 	> sudo apt update
-	> sudo apt install golang-1.[8|9]
+	> sudo apt install golang-1.10
 	> echo "PATH=/usr/lib/go/bin:$PATH" >> ~/.bashrc
+
+	Install on Raspbian:
+	wget https://storage.googleapis.com/golang/go1.10.linux-armv6l.tar.gz
+	sudo tar -C /usr/local -xvf go1.10.linux-armv6l.tar.gz
+	cat >> ~/.bashrc << 'EOF'
+	export GOPATH=$HOME/go
+	export PATH=/usr/local/go/bin:$PATH:$GOPATH/bin
+	EOF
+	source ~/.bashrc
+
+*  go-ethereum:  
+Follow instructions at https://github.com/ethereum/go-ethereum   
+
+
 
 nodejs-1.8+
 
@@ -51,12 +60,12 @@ Take note of or change the ports each node uses.
 To begin:  
 
 	> cd private-chain
-	> ./generate_genesis.sh
+	> ./generate_genesis.sh   
 	> Configure your genesis to your liking
 	> ./initialize_chain.sh
 	> ./create_account.sh
 	> ./unlock_on_start.sh
-	> ./get_enodes.sh
+	> ./get_enodes.sh    
 	> ./copy_static_nodes.sh
 	
 Now you can run each node in separate terminals.

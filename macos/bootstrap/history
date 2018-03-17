@@ -1,0 +1,17 @@
+
+ls
+eth.blockNumber
+admin.peers
+miner.start()
+miner.stop()
+eth.blockNumber
+checkAllBalances()
+admin.peers
+miner.start()
+miner.stop()
+eth.blockNumber
+admin.peers
+ls
+eth.blockNumber
+ls
+admin.peers

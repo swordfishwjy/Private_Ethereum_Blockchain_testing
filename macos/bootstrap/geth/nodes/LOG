@@ -1,20 +1,8 @@
-=============== Mar 14, 2018 (CDT) ===============
-23:21:54.411335 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-23:21:54.412358 db@open opening
-23:21:54.417733 version@stat F·[] S·0B[] Sc·[]
-23:21:54.418145 db@janitor F·2 G·0
-23:21:54.418184 db@open done T·5.793805ms
-23:21:54.549389 db@close closing
-23:21:54.549611 db@close done T·219.315µs
-=============== Mar 14, 2018 (CDT) ===============
-23:22:17.043441 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-23:22:17.043731 version@stat F·[] S·0B[] Sc·[]
-23:22:17.043767 db@open opening
-23:22:17.043862 journal@recovery F·1
-23:22:17.046198 journal@recovery recovering @1
-23:22:17.047706 memdb@flush created L0@2 N·37 S·860B "n:\x11..ail,v32":"version,v1"
-23:22:17.049754 version@stat F·[1] S·860B[860B] Sc·[0.25]
-23:22:17.050778 db@janitor F·3 G·0
-23:22:17.050838 db@open done T·7.046769ms
-23:22:17.170738 db@close closing
-23:22:17.171034 db@close done T·293.544µs
+=============== Mar 17, 2018 (CDT) ===============
+00:58:23.346114 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:58:23.346718 db@open opening
+00:58:23.348969 version@stat F·[] S·0B[] Sc·[]
+00:58:23.349362 db@janitor F·2 G·0
+00:58:23.349406 db@open done T·2.663934ms
+00:58:23.445543 db@close closing
+00:58:23.445809 db@close done T·261.188µs

@@ -1,0 +1,8 @@
+
+eth.blockNumber
+miner.start()
+miner.stop()
+eth.blockNumber
+checkAllBalances()
+eth.coinbase
+eth.blockNumber

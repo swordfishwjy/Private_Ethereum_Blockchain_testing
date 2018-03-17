@@ -16,19 +16,21 @@ Contains scripts and whatnot for running a private ethereum blockchain
 * go.1.10:
 
 	Install on Ubuntu:
+
 	> sudo add-apt-repository ppa:gophers/archive
 	> sudo apt update
 	> sudo apt install golang-1.10
 	> echo "PATH=/usr/lib/go/bin:$PATH" >> ~/.bashrc
 
 	Install on Raspbian:
-	wget https://storage.googleapis.com/golang/go1.10.linux-armv6l.tar.gz
-	sudo tar -C /usr/local -xvf go1.10.linux-armv6l.tar.gz
-	cat >> ~/.bashrc << 'EOF'
-	export GOPATH=$HOME/go
-	export PATH=/usr/local/go/bin:$PATH:$GOPATH/bin
-	EOF
-	source ~/.bashrc
+
+	> wget https://storage.googleapis.com/golang/go1.10.linux-armv6l.tar.gz
+	> sudo tar -C /usr/local -xvf go1.10.linux-armv6l.tar.gz
+	> cat >> ~/.bashrc << 'EOF'
+	> export GOPATH=$HOME/go
+	> export PATH=/usr/local/go/bin:$PATH:$GOPATH/bin
+	> EOF
+	> source ~/.bashrc
 
 *  go-ethereum:  
 Follow instructions at https://github.com/ethereum/go-ethereum   

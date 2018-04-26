@@ -31,6 +31,9 @@ go.1.10:
 	> export PATH=/usr/local/go/bin:$PATH:$GOPATH/bin
 	> EOF
 	> source ~/.bashrc
+	
+	Install on MacOS:
+	download the .pkg. Double click and install it.
  
 go-ethereum:  
 Follow instructions at https://github.com/ethereum/go-ethereum   
